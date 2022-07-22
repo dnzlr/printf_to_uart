@@ -19,7 +19,8 @@ int _write(char *ptr, int len ) {
 ## 2. Redirect _write output to UART 
 
 In the main.cpp the UART connection and the write Function need to be implemented
-```UART_HandleTypeDef huart3;
+```
+UART_HandleTypeDef huart3;
 ```
 The printf function will call the write function that will send the data via USB to a Serial Monitor ()moserial
 ```
